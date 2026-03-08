@@ -2,8 +2,8 @@
 
 ## Project Overview
 
-This project demonstrates a **DevOps-based automated CI/CD pipeline** for a simple **Fitness Gym application** built using **Flask**.
-The objective of this project is to showcase how modern DevOps tools can automate the **build, test, and deployment processes**.
+This project demonstrates a DevOps-based automated CI/CD pipeline for a simple Fitness Gym application built using Flask.
+The objective of this project is to showcase how modern DevOps tools can automate the build, test, and deployment processes.
 
 The project integrates:
 
@@ -52,15 +52,15 @@ The Fitness Gym application provides simple functionality to calculate and evalu
 
 ### Main Components
 
-**app.py**
+app.py
 
 Flask application that handles HTTP requests and responses.
 
-**fitness_logic.py**
+fitness_logic.py
 
 Contains the core fitness calculation logic separated from the main application to maintain modularity.
 
-**tests/test_fitness_logic.py**
+tests/test_fitness_logic.py
 
 Unit tests written using Pytest to verify that the fitness logic works correctly.
 
@@ -98,7 +98,7 @@ http://localhost:5000
 
 # Running Unit Tests
 
-Unit tests are implemented using **Pytest**.
+Unit tests are implemented using Pytest.
 
 Run the following command:
 
@@ -155,7 +155,7 @@ The workflow file is located at:
 4. Build Docker image
 5. Run Docker container
 
-If all steps pass successfully, the pipeline shows a **green check mark**.
+If all steps pass successfully, the pipeline shows a green check mark.
 
 # Jenkins Build Integration
 
@@ -168,7 +168,7 @@ Jenkins is used as a build automation tool to pull the project from GitHub and e
 3. Execute build commands
 4. Validate successful build
 
-Jenkins automatically marks the job as **SUCCESS** if all steps complete without errors.
+Jenkins automatically marks the job as SUCCESS if all steps complete without errors.
 
 # CI/CD Pipeline Workflow
 
