@@ -53,7 +53,7 @@ ACEest-Fitness-Gym---Automated-CI-CD-Pipeline
 │
 └── .github
     └── workflows
-        └── ci.yml
+        └── main.yml
 ```
 
 ---
