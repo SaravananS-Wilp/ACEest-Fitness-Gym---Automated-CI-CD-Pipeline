@@ -211,12 +211,3 @@ Possible enhancements include:
 * Adding Kubernetes orchestration
 * Implementing automated deployment
 * Adding monitoring and logging tools
-
-# Author
-
-Saravanan S
-ACE Engineering – DevOps Assignment
-
-# Repository Link
-
-https://github.com/SaravananS-Wilp/ACEest-Fitness-Gym---Automated-CI-CD-Pipeline
