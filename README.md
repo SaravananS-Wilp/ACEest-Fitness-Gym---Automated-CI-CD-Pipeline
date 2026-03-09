@@ -193,7 +193,7 @@ If all steps execute successfully, Jenkins marks the build as **SUCCESS**.
 
 ## Screenshots
 
-Refer to the [Jenkins Screenshots](screenshots/)**screenshots** folder for Jenkins pipeline configuration and build execution screenshots.
+Refer to the [Screenshots](screenshots/)folder for Jenkins pipeline configuration and build execution screenshots.
 
 ---
 
