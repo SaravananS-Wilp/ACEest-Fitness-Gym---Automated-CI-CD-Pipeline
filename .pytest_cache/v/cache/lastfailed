@@ -1,0 +1,5 @@
+{
+  "test_fitness_logic.py::test_bmi_normal": true,
+  "test_fitness_logic.py::test_bmi_underweight": true,
+  "test_fitness_logic.py::test_bmi_overweight": true
+}

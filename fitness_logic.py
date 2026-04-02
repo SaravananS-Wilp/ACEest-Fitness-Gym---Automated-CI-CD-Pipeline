@@ -23,4 +23,10 @@ def membership_status(end_date):
         return "Expired"
 
 def calculate_bmi_value(weight, height):
+    if height <= 0:
+    	raise ValueError("Height must be greater than zero")
+
+    if weight <= 0:
+    	raise ValueError("Weight must be greater than zero")
+	
     return weight / (height ** 2)

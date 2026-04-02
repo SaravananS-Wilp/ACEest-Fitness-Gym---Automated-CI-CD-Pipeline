@@ -1,0 +1,14 @@
+[
+  "test_fitness_logic.py::test_bmi_normal",
+  "test_fitness_logic.py::test_bmi_overweight",
+  "test_fitness_logic.py::test_bmi_underweight",
+  "tests/test_fitness_logic.py::test_bmi_multiple[60-1.7-20.76]",
+  "tests/test_fitness_logic.py::test_bmi_multiple[80-1.8-24.69]",
+  "tests/test_fitness_logic.py::test_bmi_multiple[90-1.6-35.15]",
+  "tests/test_fitness_logic.py::test_bmi_normal",
+  "tests/test_fitness_logic.py::test_bmi_overweight",
+  "tests/test_fitness_logic.py::test_bmi_underweight",
+  "tests/test_fitness_logic.py::test_invalid_inputs",
+  "tests/test_fitness_logic.py::test_negative_values",
+  "tests/test_fitness_logic.py::test_zero_height"
+]

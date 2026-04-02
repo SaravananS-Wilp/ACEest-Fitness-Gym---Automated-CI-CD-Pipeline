@@ -1,11 +1,25 @@
-from flask import Flask, jsonify, request
-from fitness_logic import calculate_bmi, membership_status
+from flask import Flask, jsonify, request, render_template
+from fitness_logic import calculate_bmi, membership_status, calculate_bmi_value
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/", methods=["GET", "POST"])
 def home():
-    return jsonify({"message": "ACEest Fitness DevOps Service"})
+    bmi = None
+    category = None
+
+    if request.method == "POST":
+        weight = float(request.form["weight"])
+        height = float(request.form["height"])
+
+        try:
+            bmi_value = calculate_bmi_value(weight, height)
+            bmi = round(bmi_value, 2)
+            category = calculate_bmi(weight,height)
+        except ValueError as e:
+            bmi = str(e)
+
+    return render_template("index.html", bmi=bmi, category=category)
 
 
 @app.route("/bmi")
